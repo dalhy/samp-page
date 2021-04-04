@@ -1,0 +1,119 @@
+/* imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+
+/* defaults */
+
+/* #212121 */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary: #642bce;
+    --primary-dark: #421d86;
+}
+
+::selection {
+    background-color: rgb(223, 240, 252);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+/* header */
+
+.navigation .navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navigation .navbar-item {
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.navigation .button {
+    color: white;
+    border-color: black;
+    background-color: var(--primary);
+    transition: 0.4s ease;
+}
+
+.navigation .button:hover {
+    color: white;
+    border-color: black;
+    background-color: var(--primary-dark);
+}
+
+.about {
+    height: 576px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.discordapp.com/attachments/696728303968714804/827904199563280384/3wQs0KS.png");
+}
+
+.about .title {
+    color: white;
+    margin-top: 18px;
+}
+
+.about .subtitle {
+    color: white;
+}
+
+/* status */
+
+.server-status {
+    border-radius: 1rem;
+}
+
+/* main */
+
+.resources .icons {
+    font-size: 64px;
+}
+
+.resources .title {
+    /*font-size: 48px;*/
+    font-family: "Aldrich", sans-serif;
+}
+
+.resources .subtitle {
+    font-size: 16px;
+    font-family: "Souce Sans Pro", sans-serif;
+}
+
+/* footer */
+
+.footer .title {
+    color: white;
+    font-size: 32px;
+    font-family: "Aldrich", sans-serif;
+}
+
+.footer .button {
+    color: white;
+    border-color: black;
+    background-color: var(--primary);
+    transition: 0.4s ease;
+}
+
+.footer .button:hover {
+    color: white;
+    border-color: black;
+    background-color: var(--primary-dark);
+}
