@@ -1,4 +1,4 @@
-import { FaInfoCircle } from "react-icons/fa";
+//import { FaInfoCircle } from "react-icons/fa";
 
 const settings = require("../settings.json");
 
